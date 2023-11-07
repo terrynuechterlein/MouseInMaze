@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CluelessMouse
+comment0.text=\r\n\ This\ is\ the\ cluelessMouse\ class.\ This\ constructs\ a\ mouse\ that\ moves\ randomly\ in\ adjacent\ locations\ in\ the\ maze\ until\ it\ stumbles\ upon\ the\ cheese.\r\n\r\n\ @author\ TERRY\ NUECHTERLEIN\ with\ help\ from\:\ William\ Shaw\r\n\ @version\ 1.0\ 3/15/20\r\n
+comment1.params=
+comment1.target=CluelessMouse()
+comment2.params=
+comment2.target=java.util.ArrayList\ emptyNeighbors()
+comment3.params=
+comment3.target=java.util.ArrayList\ getNextLocation()
+numComments=4

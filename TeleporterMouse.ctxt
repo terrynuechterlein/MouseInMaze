@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TeleporterMouse
+comment0.text=\r\n\ This\ is\ the\ teleporter\ mouse.\ This\ mouse\ finds\ the\ location\ of\ the\ cheese,\ stores\ it\ in\ an\ empty\ arraylist\ and\ then\ returns\ that\ list.\ It\ will\ then\ \r\n\ teleport\ to\ that\ location.\r\n\r\n\ @author\ TERRY\ NUECHTERLEIN\ with\ help\ from\:\ William\ Shaw\r\n\ @version\ 1.0\ 3/15/20\r\n
+comment1.params=
+comment1.target=TeleporterMouse()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Teleporter\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getNextLocation()
+numComments=3

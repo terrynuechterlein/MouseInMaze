@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MouseInAMazeApp
+comment0.text=\r\n\ \ Mouse\ in\ a\ Maze\ Program\:<br>\r\n\ \ \ \ The\ MouseInAMazeApp\ class\ constructs\ a\ graphical\ user\ interface\r\n\ \ \ \ for\ a\ mouse-in-a-maze\ program.\ \ Once\ the\ graphical\ user\ interface\r\n\ \ \ \ has\ been\ constructed,\ all\ program\ control\ originates\ from\ there.\r\n\r\n\ \ @author\ Alyce\ Brady\r\n\ \ @version\ 29\ February\ 2004\r\n\ \ \r\n\ \ UPDATE\r\n\ \ @author\ Terry\ Nuechterlein\r\n\ \ version\ 2.0\ 3/15/20\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ This\ is\ the\ main\ method.\ It\ creates\ a\ graphical\ user\ interface\ for\ the\ program.\ It\ also\ specifies\ the\ types\ of\ mice\ supported\ by\ the\ program,\ and\ \r\n\ adds\ the\ different\ mice.\r\n
+numComments=2

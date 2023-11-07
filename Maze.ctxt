@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Maze\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=rows\ cols
+comment1.target=Maze(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Maze\r\n
+comment2.params=
+comment2.target=edu.kzoo.grid.Location\ getStartLoc()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=
+comment3.target=edu.kzoo.grid.Location\ getFinishLoc()
+comment4.params=loc
+comment4.target=void\ setStartLoc(edu.kzoo.grid.Location)
+comment5.params=loc
+comment5.target=void\ setFinishLoc(edu.kzoo.grid.Location)
+numComments=6

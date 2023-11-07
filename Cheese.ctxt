@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cheese
+comment0.text=\r\n\ \ Mouse\ in\ a\ Maze\ Program\:<br>\r\n\r\n\ \ \ \ A\ Cheese\ object\ represents\ a\ piece\ of\ cheese\ in\ the\ maze.\r\n\r\n\ \ @author\ Alyce\ Brady\r\n\ \ @version\ 5\ March\ 2003\r\n
+comment1.params=
+comment1.target=Cheese()
+comment1.text=\ Constructs\ a\ piece\ of\ cheese\ at\ the\ specified\ location\ in\r\n\ \ a\ grid.\r\n
+numComments=2

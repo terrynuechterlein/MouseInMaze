@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MazeDataFileHandler
+comment0.text=\r\n\ \ Mouse\ in\ a\ Maze\ Program\:<br>\r\n\r\n\ \ A\ <code>MazeDataFileHandler</code>\ object\ reads\ and\ writes\r\n\ \ information\ about\ a\ Maze\ to\ and\ from\ a\ data\ file,\ including\r\n\ \ the\ maze's\ dimensions,\ the\ starting\ and\ finish\ locations,\r\n\ \ and\ the\ locations\ of\ the\ walls.\r\n\r\n\ \ <p>\r\n\ \ The\ first\ line\ of\ the\ input\ file\ should\ contain\ the\ dimensions\ of\r\n\ \ the\ maze.\ \ Subsequent\ lines\ should\ specify\ the\ locations\ of\ the\r\n\ \ starting\ location,\ the\ finishing\ location,\ and\ the\ locations\ of\r\n\ \ the\ walls.\ \ The\ file\ format\ is\:\r\n\ \ <pre>\r\n\ \ \ \ \ rows\ columns\r\n\ \ \ \ \ row-pos\ col-pos\ \ \ \ \ \ \ \ \ \ (starting\ location)\r\n\ \ \ \ \ row-pos\ col-pos\ \ \ \ \ \ \ \ \ \ (finishing\ location)\r\n\ \ \ \ \ row-pos\ col-pos\ \ \ \ \ \ \ \ \ \ (walls\ ...\ )\r\n\ \ \ \ \ ...\r\n\ \ \ \ \ row-pos\ col-pos\r\n\ \ </pre>\r\n\ \ where\ <code>rows</code>\ and\ <code>columns</code>\ are\ integers\r\n\ \ indicating\ the\ number\ of\ rows\ and\ columns\ in\ the\ maze,\r\n\ \ the\ first\ <code>row-pos</code>\ and\ <code>col-pos</code>\ are\ integers\r\n\ \ indicating\ the\ row\ and\ column\ position\ of\ the\ starting\ location,\r\n\ \ the\ second\ <code>row-pos</code>\ and\ <code>col-pos</code>\ are\ integers\r\n\ \ indicating\ the\ row\ and\ column\ position\ of\ the\ finishing\ location,\r\n\ \ and\ the\ rest\ of\ the\ <code>row-pos</code>\ and\ <code>col-pos</code>\ lines\r\n\ \ indicate\ the\ row\ and\ column\ positions\ of\ walls\ in\ the\ maze.\r\n\r\n\ \ @author\ Alyce\ Brady\ (based\ on\ MBSDataFileHandler)\r\n\ \ @version\ 29\ February\ 2004\r\n
+comment1.params=file
+comment1.target=edu.kzoo.grid.Grid\ readGrid(java.io.File)
+comment1.text=\ Reads\ information\ about\ a\ maze\ from\ an\ initial\ configuration\r\n\ \ data\ file.\r\n\ \ @param\ \ file\ \ \ \ \ \ \ java.io.File\ object\ from\ which\ to\ read\r\n\ \ @throws\ java.io.FileNotFoundException\ if\ file\ cannot\ be\ opened\r\n\ \ @throws\ RuntimeException\ \ \ if\ invalid\ information\ is\ read\ from\ file\r\n
+comment2.params=
+comment2.target=Maze\ buildMaze()
+comment2.text=\ Reads\ maze\ specifications\ and\ constructs\ maze.\r\n\ \ @throws\ RuntimeException\ \ if\ invalid\ maze\ information\ is\ read\r\n
+comment3.params=maze
+comment3.target=edu.kzoo.grid.Location\ readLocation(Maze)
+comment3.text=\ Reads\ in\ a\ Location\ object\ (must\ be\ a\ valid\ location\ in\r\n\ \ <code>maze</code>).\r\n\ \ @param\ maze\ \ \ \ \ \ maze\ in\ which\ location\ must\ be\ valid\r\n\ \ @return\ \ the\ newly\ created\ Location\ object\r\n\ \ @throws\ RuntimeException\ \ \ if\ invalid\ location\ information\ is\ read\r\n
+comment4.params=
+comment4.target=int\ readInt()
+comment4.text=\ Returns\ the\ next\ token\ in\ the\ file\ as\ an\ integer.\r\n\ \ @return\ \ \ \ an\ int\ containing\ the\ next\ number\ in\ the\ file\r\n\ \ @throws\ \ \ \ java.io.EOFException\ if\ EOF\r\n\ \ @throws\ \ \ \ java.lang.NumberFormatException\ if\ next\ token\ is\ not\ an\ int\r\n\ \ @throws\ \ \ \ java.io.IOException\ if\ another\ type\ of\ input\ error\ occurs\r\n
+comment5.params=
+comment5.target=java.lang.String\ readString()
+comment5.text=\ Returns\ the\ next\ token\ in\ the\ file\ as\ a\ string.\r\n\ \ @return\ \ \ \ \ a\ String\ containing\ the\ next\ token\ in\ the\ file;\ or\ null\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ if\ end\ of\ file\ is\ encountered\r\n\ \ @throws\ \ \ \ \ java.io.IOException\ if\ an\ input\ error\ occurs\r\n
+comment6.params=maze
+comment6.target=void\ readWalls(Maze)
+comment6.text=\ Reads\ location\ information\ for\ the\ walls\ in\ the\ maze\ and\r\n\ \ constructs\ the\ walls.\r\n\ \ @param\ maze\ \ \ the\ maze\ in\ which\ walls\ should\ be\ created\r\n\ \ @throws\ RuntimeException\ \ \ if\ invalid\ location\ information\ is\ read\r\n
+comment7.params=maze\ file
+comment7.target=void\ writeGrid(edu.kzoo.grid.Grid,\ java.io.File)
+comment7.text=\ Reads\ information\ about\ a\ maze\ from\ an\ initial\ configuration\r\n\ \ data\ file.\r\n\ \ @param\ \ maze\ \ \ \ \ \ \ the\ maze\ to\ save\r\n\ \ @param\ \ file\ \ \ \ \ \ \ java.io.File\ object\ from\ which\ to\ read\r\n\ \ @throws\ UnsupportedOperationException\r\n
+numComments=8
